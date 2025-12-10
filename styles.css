@@ -1,0 +1,53 @@
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    gap: 5px;
+}
+
+.calculator-container > * {
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    gap: 5px
+}
+
+.row > button {
+    flex: 1;
+}
+
+button {
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #FFBF00;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#dead-space {
+    flex: 1;
+    padding: 7px;
+}
+
+#zero {
+    flex: 2.3322;
+}
