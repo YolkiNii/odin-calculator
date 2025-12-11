@@ -1,2 +1,4 @@
 # Odin Calculator
 A basic calculator that supports simple operations purely in HTML, CSS, and JavaScript. This is a milestone project under The Odin Project Foundations Course.
+
+Also added a small puzzle to this to demonstrate potential security related matter with JavaScript and the web console. The goal is to use the console and buttons to display `"I SAID DON'T TOUCH ME!!!"` on the Calculator display. The criteria is to have the sequence of presses trigger the message to display. Thought of this as a way to explore the capabilities of the web console and public webpages that utilize JavaScript.
